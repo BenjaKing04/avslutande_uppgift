@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/fontawesome.min.css" integrity="sha512-A0Mzktmq9yG2Jy51q1l3CjBYOJx5oLxwZ0Ge8pFysRBEzz9USz4TXE72hOOj0TjPupHzZwzm7G1xNXj1hJzcgQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="app1.js"></script>
+</head>
+<body>
+    <div class="mapholder">
+        <div id="map-layer"></div>
+        <div id="markers">
+            <div class="marker" style="left: 100px; top: 150px;" onclick="showInfo('Area 1')"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="marker" style="left: 250px; top: 300px;" onclick="showInfo('Area 2')"><i class="fas fa-map-marker-alt"></i></div>    
+        </div>
+        <img id="the-image" src="dark_sousl_3_main_map.jpg">
+       </div>
+    <div class="info-box">
+        <div class="close-btn" onclick="hideInfo()"><i class="fas fa-times"></i></div>
+        <div class="info-content"></div>
+    </div>
+</body>
+</html>
